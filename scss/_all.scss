@@ -1,11 +1,11 @@
 @charset "utf-8";
 
 /*! bulma.io v0.7.2 | MIT License | github.com/jgthms/bulma */
-@import "~bulma_scss/scss/gutenberg/initial-variables";
-@import "~bulma_scss/scss/gutenberg/functions";
-@import "~bulma_scss/scss/gutenberg/derived-variables";
-@import "~bulma_scss/scss/gutenberg/mixins";
+@import "~bulma_scss/scss/utilities/initial-variables";
+@import "~bulma_scss/scss/utilities/functions";
+@import "~bulma_scss/scss/utilities/derived-variables";
+@import "~bulma_scss/scss/utilities/mixins";
 
-@import "gutenberg/_all";
+@import "utilities/_all";
 
 

@@ -1,0 +1,63 @@
+
+$spacer: 1rem !default;
+$spacer-y: $spacer !default;
+
+/** Media alignment */
+.alignwide {
+  margin-left  : -80px;
+  margin-right : -80px;
+}
+.alignfull {
+  margin-left  : calc( -100vw / 2 + 100% / 2 );
+  margin-right : calc( -100vw / 2 + 100% / 2 );
+  max-width    : 100vw;
+
+  &:first-child {
+    margin-top: -($spacer-y);
+  }
+
+  &:last-child {
+    margin-bottom: -($spacer-y);
+  }
+}
+.alignfull img {
+  width: 100vw;
+}
+
+
+/**
+ * WordPress Generated Classes
+ * @see http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+ */
+
+/** Media alignment */
+.alignnone {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.aligncenter {
+  display: block;
+  margin: ($gap / 2) auto;
+  height: auto;
+}
+
+.alignleft,
+.alignright {
+  margin-bottom: ($gap / 2);
+  height: auto;
+}
+
++tablet() {
+  .alignleft {
+    float: left;
+    margin-right: ($gap / 2);
+  }
+
+  .alignright {
+    float: right;
+    margin-left: ($gap / 2);
+  }
+}
