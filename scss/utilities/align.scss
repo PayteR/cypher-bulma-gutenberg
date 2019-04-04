@@ -50,7 +50,7 @@ $spacer-y: $spacer !default;
   height: auto;
 }
 
-+tablet() {
+@include tablet() {
   .alignleft {
     float: left;
     margin-right: ($gap / 2);
