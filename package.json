@@ -1,6 +1,6 @@
 {
   "name": "cypher-bulma-gutenberg",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Extended Bulma components, modules, gutenberg for more convenient develoment. Use as you wish with sass @includes!",
   "main": "index.js",
   "repository": {

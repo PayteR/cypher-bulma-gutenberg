@@ -1,14 +1,9 @@
 @charset "utf-8";
 
-.has-small-font-size {
-  font-size: $size-small;
+@for $i from 1 through length($sizes) {
+  .has-size-#{$i}-font-size {
+    font-size: nth($sizes, $i) !important;
+  }
 }
-.has-normal-font-size {
-  font-size: $size-normal;
-}
-.has-mediun-font-size {
-  font-size: $size-medium;
-}
-.has-large-font-size {
-  font-size: $size-large;
-}
+
+
